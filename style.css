@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+   background: url(images/pattern-background-desktop.svg) no-repeat;
+   background-size: contain;
+   min-height: 100vh;
+   background-color: hsl(225, 100%, 94%);
+   font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-body {
+
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+h4, h6 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.plan a {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.plan a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.664)
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    font-weight: 700;
+    width: 100%;
+    padding: 10px;
+    box-shadow: -1px 16px 33px -11px hsl(245, 75%, 52%);
+}
+
+.btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.664);
+    color: hsl(225, 100%, 94%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+a:hover {
+    color: hsl(223, 47%, 23%); 
+}
